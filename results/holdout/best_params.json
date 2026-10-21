@@ -1,0 +1,46 @@
+{
+ "lr": {
+  "C": 1.5702970884055387
+ },
+ "rf": {
+  "n_estimators": 362,
+  "max_depth": 6,
+  "min_samples_leaf": 2
+ },
+ "xgboost": {
+  "n_estimators": 101,
+  "max_depth": 4,
+  "learning_rate": 0.019249592212482118,
+  "subsample": 0.8339540584402969
+ },
+ "lightgbm": {
+  "n_estimators": 238,
+  "max_depth": 3,
+  "learning_rate": 0.012259267804609076,
+  "num_leaves": 61
+ },
+ "svm": {
+  "C": 0.9648568891461753,
+  "gamma": "auto"
+ },
+ "catboost": {
+  "iterations": 316,
+  "depth": 8,
+  "learning_rate": 0.012323715275852616,
+  "l2_leaf_reg": 1.0306803106443916
+ },
+ "mlp": {
+  "n_layers": 3,
+  "n_units_0": 254,
+  "n_units_1": 35,
+  "n_units_2": 173,
+  "activation": "tanh",
+  "alpha": 0.0012111944618925672,
+  "lr": 0.001169001840113203,
+  "hidden_layer_sizes": [
+   254,
+   35,
+   173
+  ]
+ }
+}
